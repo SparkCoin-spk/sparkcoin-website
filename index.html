@@ -75,6 +75,17 @@ header img:hover {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 } 
+  /* Pulsating gold glow for logo */
+@keyframes pulseGlow {
+    0% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+    50% { box-shadow: 0 0 25px rgba(255, 215, 0, 0.9); }
+    100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+}
+
+header img {
+    animation: pulseGlow 2s infinite;
+    border-radius: 10px;
+}
     </style>
 </head>
 <body>
