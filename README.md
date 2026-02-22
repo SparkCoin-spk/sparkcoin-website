@@ -1,2 +1,113 @@
-# sparkcoin-website
-Official website of Spark Coin (SPK)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPARK COIN (SPK)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #F0F0F0;
+            text-align: center;
+        }
+        header {
+            padding: 60px 20px;
+        }
+        h1 {
+            font-size: 42px;
+            color: #FFD700;
+            text-shadow: 0 0 10px #FFD700;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px;
+            background: #FFD700;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #FFE066;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .box {
+            background: #1a1a1a;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 700px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        footer {
+            padding: 20px;
+            font-size: 14px;
+            background: #111;
+        }
+        a.social {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a.social:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 32px; }
+            .btn { padding: 10px 20px; font-size: 14px; }
+            .box { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SPARK COIN (SPK)</h1>
+    <p>Native token of the Spark DeFi ecosystem — decentralized finance for liquidity, staking, and governance.</p>
+    <a href="https://chipmunk.meme/token/0x24d89ad95f50730d225f86dcdf913362310d2578" class="btn">View on DEX</a>
+    <a href="https://etherscan.io/address/0x55a89faf0d887d4088ab6264efec7c21ade69df8" class="btn">View Contract</a>
+</header>
+
+<section>
+    <div class="box">
+        <h2>About</h2>
+        <p>SPARK COIN (SPK) is the native token of the Spark DeFi ecosystem. It manages stablecoin liquidity, offers yields, governance participation, and staking opportunities.</p>
+    </div>
+
+    <div class="box">
+        <h2>Utility</h2>
+        <p>SPK is used for governance votes, earning rewards, and securing the protocol through staking. Designed to help users earn yields and participate in DeFi services.</p>
+    </div>
+
+    <div class="box">
+        <h2>Token Information</h2>
+        <p><strong>Network:</strong> GoldxMainnet</p>
+        <p><strong>Status:</strong> Live & Tradable</p>
+        <p><strong>Total Supply:</strong> 1,000,000,000 SPK</p>
+    </div>
+
+    <div class="box">
+        <h2>Roadmap</h2>
+        <p>✔ Token Launch on GoldxMainnet</p>
+        <p>✔ DEX Listing</p>
+        <p>🔜 Staking Platform</p>
+        <p>🔜 Mobile App Development</p>
+    </div>
+
+    <div class="box">
+        <h2>Connect</h2>
+        <p>Follow SPARK COIN on <a href="https://x.com/sparkcoin_SPK" class="social">Twitter</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 SPARK COIN. All Rights Reserved.
+</footer>
+
+</body>
+</html>
