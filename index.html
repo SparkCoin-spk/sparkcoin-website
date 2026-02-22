@@ -125,6 +125,20 @@ header img {
         margin-bottom: 15px;
     }
 }
+    /* Mobile touch-friendly button animation */
+@media only screen and (max-width: 600px) {
+    .btn:active {
+        transform: scale(0.95);
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+        transition: all 0.1s ease-in-out;
+    }
+
+    header img:active {
+        transform: scale(1.02);
+        box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+        transition: all 0.1s ease-in-out;
+    }
+}
     </style>
 </head>
 <body>
