@@ -86,6 +86,15 @@ header img {
     animation: pulseGlow 2s infinite;
     border-radius: 10px;
 }
+ /* Pulsating gold glow + bounce for buttons */
+@keyframes buttonBounce {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 215, 0, 0.6); }
+    50% { transform: scale(1.05); box-shadow: 0 0 25px rgba(255, 215, 0, 0.9); }
+}
+
+.btn:hover {
+    animation: buttonBounce 0.6s forwards;
+}  
     </style>
 </head>
 <body>
